@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Redirector",
+  "short_name": "Redirector",
+  "description": "Redirector",
+  "version": "0.0.0",
+  "author": "Sina Siadat <siadat@gmail.com>",
+  "homepage_url": "https://github.com/siadat/redirector",
+  "permissions": [ "tabs", "history" ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
